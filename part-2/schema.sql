@@ -24,4 +24,3 @@ CREATE TABLE orders(
 	name VARCHAR(40) NOT NULL,
 	section VARCHAR(40) NOT NULL
 );
-Contact GitHub API Training Shop Blog About
