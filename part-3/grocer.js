@@ -48,7 +48,7 @@ let clearList = () => {
 // Modal components
 let modal = document.getElementById('modal')
     modalButton = document.getElementById('cart-button')
-    span = document.getElementsByClassName('close')[0]
+    span = document.getElementsByClassName('exit')[0]
 
 modalButton.onlick = function() {
     modal.style.display = "block"
