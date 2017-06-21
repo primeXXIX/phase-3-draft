@@ -74,6 +74,27 @@
         </ul>
       </div>
     </div>
-      <script src="./grocer.js" type="text/javascript"></script>
+
+    <!---Modal View --->
+    <div id="modal" class="cartModal">
+      <div class="modal-parts">
+        <div>
+          <span>Cart</span>
+          <span class="exit">&times;</span>
+        </div>
+        <div>
+          <span><ul class="modalView"></ul></span>
+          <span><ul class="modalView2"></ul></span>
+      </div>
+      <div>
+        <span><button onclick="clearList()" type="button" id="delete-item"></button>Clear Cart</span>
+        <span class="sum"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <!---Script--->
+    <script src="./grocer.js"></script>
   </body>
 </html>
