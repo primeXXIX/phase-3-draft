@@ -4,10 +4,13 @@
   "description": "",
   "main": "database.js",
   "scripts": {
-    "test": "mocha database_test.js"
+    "test": "mocha database_test.js",
+    "createdb": "createdb grocery_store",
+    "schema": "psql grocery_store < schema.sql",
+    "import": "psql grocery_store < load-data.sql"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "chai": "^4.0.2",
     "mocha": "^3.4.2",

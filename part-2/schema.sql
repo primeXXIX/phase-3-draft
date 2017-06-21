@@ -24,3 +24,16 @@ CREATE TABLE orders(
 	name VARCHAR(40) NOT NULL,
 	section VARCHAR(40) NOT NULL
 );
+
+-- Add custom values later
+--
+-- INSERT INTO shoppers(first_name, last_name) VALUES
+-- 	('first_name', 'last_name'),
+-- 	('first_name', 'last_name'),
+-- 	('first_name', 'last_name');
+--
+-- INSERT INTO orders VALUES
+-- 	('id', 'date', 'first_name', 'last_name'),
+-- 	('id', 'date', 'first_name', 'last_name'),
+-- 	('id', 'date', 'first_name', 'last_name'),
+-- 	('id', 'date', 'first_name', 'last_name'),
